@@ -1,0 +1,13 @@
+name: First Job
+on: workflow_dispatch
+jobs: 
+  first-job:
+   runs-on: ubuntu-latest
+   steps: 
+    - name: First Job
+      run: echo "First"
+    - name: Second Job
+      run: |
+           echo "second"
+           echo "pipeline completed" 
+    
