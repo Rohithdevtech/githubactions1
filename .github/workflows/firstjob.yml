@@ -9,5 +9,6 @@ jobs:
     - name: Second Job
       run: |
            echo "second"
-           echo "pipeline completed" 
+           echo "pipeline completed"
+           apt-update -y
     
