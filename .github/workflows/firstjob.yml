@@ -8,5 +8,8 @@ jobs:
         run: echo "Hello Test"
       - name: Print User
         run: echo "$USER"
+      - name: Kernel PRinter
+        run: uname -r
+
         
         
