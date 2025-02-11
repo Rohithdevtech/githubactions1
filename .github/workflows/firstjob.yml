@@ -1,4 +1,4 @@
-name: First Job
+name: Basic Workflow
 on: workflow_dispatch
 jobs:
   sample_job:
