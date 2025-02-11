@@ -1,14 +1,12 @@
 name: First Job
 on: workflow_dispatch
-jobs: 
-  first-job:
-   runs-on: ubuntu-latest
-   steps: 
-    - name: First Job
-      run: echo "First"
-    - name: Second Job
-      run: |
-           echo "second"
-           echo "pipeline completed"
-           sudo apt install git -y
-    
+jobs:
+  sample_job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Hello
+        run: echo "Hello Test"
+      - name: Print User
+        run: echo "$USER"
+        
+        
