@@ -9,7 +9,9 @@ jobs:
       - name: Print User
         run: echo "$USER"
       - name: Kernel PRinter
-        run: uname -r
+        run: |
+            uname -r
+            whoami
 
         
         
